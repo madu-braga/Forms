@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+:root{
+    --success-color:#2ecc71;
+    --error-color: #e74c3c;
+}
+
 *{
     box-sizing: border-box;  
 }
@@ -58,9 +63,17 @@ h2{
 }
 
 .form-control.success input{
-    border-color: #2ecc71;
+    border-color: var(--success-color);
 }
 
 .form-control.error input{
-    border-color: #a74c3c;
+    border-color: var(--error-color);
+}
+
+.form-control small{
+    color: var(--error-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
 }
