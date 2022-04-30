@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.10.2 on win32)" generated="20220430 19:41:04.097" rpa="false" schemaversion="3">
+<suite id="s1" name="Forms" source="C:\Users\mbraga7\OneDrive - JNJ\Documents\Estágio\Python\Robot\myTestCase\Forms-main\Forms-main\forms.robot">
+<test id="s1-t1" name="Cenário 1: preencher formulário" line="39">
+<kw name="Abrir navegador e acessar o site">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>file:///C:/Users/mbraga7/OneDrive%20-%20JNJ/Documents/Est%C3%A1gio/Python/Robot/myTestCase/Forms-main/Forms-main/index.html</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220430 19:41:05.423" level="INFO">Opening browser 'Chrome' to base url 'file:///C:/Users/mbraga7/OneDrive%20-%20JNJ/Documents/Est%C3%A1gio/Python/Robot/myTestCase/Forms-main/Forms-main/index.html'.</msg>
+<status status="PASS" starttime="20220430 19:41:05.423" endtime="20220430 19:41:15.826"/>
+</kw>
+<status status="PASS" starttime="20220430 19:41:05.423" endtime="20220430 19:41:15.826"/>
+</kw>
+<kw name="Preencher campos">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${input_username}</arg>
+<arg>Duda</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220430 19:41:15.843" level="INFO">Typing text 'Duda' into text field 'id:username'.</msg>
+<status status="PASS" starttime="20220430 19:41:15.842" endtime="20220430 19:41:16.070"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220430 19:41:17.076" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220430 19:41:16.070" endtime="20220430 19:41:17.076"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${input_email}</arg>
+<arg>Duda@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220430 19:41:17.084" level="INFO">Typing text 'Duda@gmail.com' into text field 'id:email'.</msg>
+<status status="PASS" starttime="20220430 19:41:17.076" endtime="20220430 19:41:17.543"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220430 19:41:18.555" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220430 19:41:17.543" endtime="20220430 19:41:18.555"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${input_password}</arg>
+<arg>tlg17@N#</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220430 19:41:18.556" level="INFO">Typing text 'tlg17@N#' into text field 'id:password'.</msg>
+<status status="PASS" starttime="20220430 19:41:18.555" endtime="20220430 19:41:18.740"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220430 19:41:19.742" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220430 19:41:18.740" endtime="20220430 19:41:19.742"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${input_password2}</arg>
+<arg>tlg17@N#</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220430 19:41:19.742" level="INFO">Typing text 'tlg17@N#' into text field 'id:password2'.</msg>
+<status status="PASS" starttime="20220430 19:41:19.742" endtime="20220430 19:41:20.017"/>
+</kw>
+<status status="PASS" starttime="20220430 19:41:15.841" endtime="20220430 19:41:20.017"/>
+</kw>
+<kw name="Clicar em submit">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${button_submit}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220430 19:41:20.033" level="INFO">Clicking element 'id:submit'.</msg>
+<status status="PASS" starttime="20220430 19:41:20.032" endtime="20220430 19:41:20.356"/>
+</kw>
+<status status="PASS" starttime="20220430 19:41:20.031" endtime="20220430 19:41:20.357"/>
+</kw>
+<kw name="Fechar navegador">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220430 19:41:20.367" endtime="20220430 19:41:27.462"/>
+</kw>
+<status status="PASS" starttime="20220430 19:41:20.366" endtime="20220430 19:41:27.462"/>
+</kw>
+<status status="PASS" starttime="20220430 19:41:05.407" endtime="20220430 19:41:27.462"/>
+</test>
+<status status="PASS" starttime="20220430 19:41:04.113" endtime="20220430 19:41:27.462"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Forms">Forms</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
