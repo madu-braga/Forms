@@ -14,7 +14,7 @@ ${button_submit}        id:submit
 
 *** Keywords *** 
 Abrir navegador e acessar o site
-    Open Browser       file:///C:/Users/mbraga/Documents/Python/Robot/Forms-main/index.html  Chrome
+    Open Browser       file:///C:/Users/mbraga/Documents/Python/Robot/Forms-main/robot/index.html  Chrome
 
 
 Preencher campos
