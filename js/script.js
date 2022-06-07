@@ -49,4 +49,4 @@ form.addEventListener('submit', function(e){
     } else{
         showSuccess(password2);
     }
-});
+ });
